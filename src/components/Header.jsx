@@ -28,7 +28,8 @@ const Header = () => {
       <div className="container-fluid">
         <Link className="navbar-brand d-flex gap-3 align-items-center" to="/">
           <FaShopify className="text-info fs-1" />
-          Theuma Store
+          <span className="text-info fw-bold"> * THEUMA *</span>
+          <span>STORE</span>
         </Link>
         <button
           className="navbar-toggler"
